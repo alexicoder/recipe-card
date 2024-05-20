@@ -94,7 +94,7 @@ em {
 
 .highlight-info-section {
     background-color: var(--rose-white);
-    padding: 1em;
+    padding: 1em 1.5em;
     border-bottom: none;
     border-radius: .8em;
 }
