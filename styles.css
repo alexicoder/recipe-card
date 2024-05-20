@@ -70,3 +70,7 @@ h1 {
     font-family: var(--body-font);
     font-size: 20px;
 }
+
+.highlight-info-section ul {
+    padding-inline-start: 25px;
+}
