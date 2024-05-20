@@ -134,3 +134,8 @@ table tr td:nth-child(2) {
     color: var(--nutmeg);
 }
 
+@media (min-width: 700px) {
+    .card {
+        border-radius: 20px;
+    }
+}
