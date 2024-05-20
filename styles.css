@@ -103,3 +103,21 @@ em {
 .highlight-info-section li::marker {
     color: var(--dark-raspberry);
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr:not(:last-child) {
+    border-bottom: 1px solid var(--light-grey); 
+}
+
+table td {
+    padding: 10px 30px;
+}
+
+table tr td:nth-child(2) {
+    font-weight: 600;
+    color: var(--nutmeg);
+}
