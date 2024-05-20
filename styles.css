@@ -46,7 +46,7 @@ em {
     padding: 40px 30px 30px 30px;
     display: flex;
     flex-direction: column;
-    gap: 1.25em;
+    gap: 2em;
 }
 
 .flex-centered {
@@ -60,7 +60,7 @@ em {
     display: flex;
     flex-direction: column;
     gap: 1.25em;
-    padding-bottom: 1.25em;
+    padding-bottom: 2em;
     border-bottom: solid 1px var(--light-grey);
 }
 
