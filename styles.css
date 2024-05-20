@@ -82,6 +82,11 @@ em {
     padding-left: 16px;
 }
 
+.info-section li::marker {
+    color: var(--nutmeg);
+    font-weight: 600;
+}
+
 .highlight-info-section {
     background-color: var(--rose-white);
     padding: 1em;
