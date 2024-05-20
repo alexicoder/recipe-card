@@ -89,3 +89,6 @@ em {
     font-size: 20px;
 }
 
+.highlight-info-section li::marker {
+    color: var(--dark-raspberry);
+}
