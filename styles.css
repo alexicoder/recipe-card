@@ -78,5 +78,9 @@ em {
 }
 
 .highlight-info-section ul {
-    padding-inline-start: 25px;
+    padding-inline-start: 1.5625em;
+}
+
+.highlight-info-section li {
+    padding-left: 1em;
 }
