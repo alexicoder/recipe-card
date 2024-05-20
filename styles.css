@@ -64,6 +64,15 @@ em {
     border-bottom: solid 1px var(--light-grey);
 }
 
+.info-section ul,
+.info-section ol {
+    padding-inline-start: 25px;
+}
+
+.info-section li {
+    padding-left: 16px;
+}
+
 .highlight-info-section {
     background-color: var(--rose-white);
     padding: 1em;
@@ -77,10 +86,3 @@ em {
     font-size: 20px;
 }
 
-.highlight-info-section ul {
-    padding-inline-start: 1.5625em;
-}
-
-.highlight-info-section li {
-    padding-left: 1em;
-}
