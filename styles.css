@@ -11,6 +11,8 @@
     --light-grey: hsl(30, 18%, 87%);
     --wenge-brown: hsl(30, 10%, 34%);
     --dark-charcoal: hsl(24, 5%, 18%);
+    --nutmeg: hsl(14, 45%, 36%);
+    --dark-raspberry: hsl(332, 51%, 32%);
 }
 
 body {
@@ -54,4 +56,17 @@ h1 {
     gap: 1.25em;
     padding-bottom: 1.25em;
     border-bottom: solid 1px var(--light-grey);
+}
+
+.highlight-info-section {
+    background-color: var(--rose-white);
+    padding: 1em;
+    border-bottom: none;
+    border-radius: .8em;
+}
+
+.highlight-info-section h2 {
+    color: var(--dark-raspberry);
+    font-family: var(--body-font);
+    font-size: 20px;
 }
