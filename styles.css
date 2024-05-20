@@ -18,6 +18,7 @@
 body {
     font-family: var(--body-font);
     color: var(--dark-charcoal);
+    background-color: var(--eggshell);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,6 +55,12 @@ em {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.card {
+    width: 100%;
+    max-width: 700px;
+    background-color: var(--white);
 }
 
 .info-section {
@@ -126,3 +133,4 @@ table tr td:nth-child(2) {
     font-weight: 600;
     color: var(--nutmeg);
 }
+
